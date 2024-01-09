@@ -9,7 +9,6 @@ import { sendTwoFactorTokenEmail, sendVerificaionEmail } from "@/lib/mail";
 import { generateTwoFactorToken, generateVerificationToken } from "@/lib/tokens";
 import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
 import { LoginSchema } from "@/schemas";
-import { error } from "console";
 import { AuthError } from "next-auth";
 import * as z from "zod";
 
